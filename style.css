@@ -1,4 +1,4 @@
-*{
+* {
     font-family: sans-serif;
 }
 
@@ -44,16 +44,17 @@ body {
     gap: 45px;
     text-decoration: none;
     margin-top: 35px;
-    
+
 
 
 }
 
-.link-nav{
+.link-nav {
     text-decoration: none;
-    color: rgb(182, 178, 178) ;
+    color: rgb(182, 178, 178);
 }
-.link-nav:hover{
+
+.link-nav:hover {
     color: black;
     transition: 0.5s;
     cursor: pointer;
@@ -61,9 +62,9 @@ body {
 
 
 ul {
-    
+
     list-style: none;
-    
+
 }
 
 .nav-button {
@@ -72,17 +73,17 @@ ul {
     padding: 8px 25px;
     background-color: transparent;
     border: 2px solid rgb(182, 178, 178);
-    
-    
+
+
 
 }
 
-.nav-button:hover{
+.nav-button:hover {
     border-color: rgb(255, 183, 48);
     color: rgb(255, 183, 48);
     transition: 1s;
     cursor: pointer;
-    
+
 }
 
 /*end of navigation block style formatting*/
@@ -90,7 +91,7 @@ ul {
 
 /*beginning of the main advertising style of the page*/
 .flayer-principal {
-    
+
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -99,20 +100,43 @@ ul {
 
 }
 
-.img-car{
+.text-top-car{
+    font-size: 16px;
+    color: rgb(182, 178, 178);
+   
+
+}
+
+.img-car {
     width: 650px;
     margin-top: 100px;
+    
 }
 
-.box-text{
-
+.box-text {
+    font-size: 90px;
+    margin-left: 100px;
 }
-
-
-
+.text-blue{
+    color:blue;
+}
 
 
 .contact-flayer {
     background-color: rgb(182, 178, 178);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 25px;
+    align-items: baseline;
+}
 
+.contacto-first{
+    margin-left: 100px;
+    margin-top: 10px;
+}
+
+
+.container-experience{
+    
 }
