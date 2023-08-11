@@ -1,5 +1,118 @@
-body{
+*{
+    font-family: sans-serif;
+}
+
+body {
     background-color: black;
     margin: 0px;
     padding: 0px;
+}
+
+/*main container where it will
+ contain the navigation bar, 
+ title and main advertisement of the page*/
+.main-container {
+    width: 100vw;
+    height: 550px;
+    background-color: white;
+    display: grid;
+    grid-template-columns: 3, 1fr;
+    grid-template-rows: 85px 400px 65px;
+}
+
+/*page header container*/
+.header-container {}
+
+/*Navigation menu items formatting block*/
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-type {
+    width: 50px;
+    height: 50px;
+    padding-top: 15px;
+    margin-left: 100px;
+
+
+}
+
+.list-menu {
+    display: flex;
+    gap: 45px;
+    text-decoration: none;
+    margin-top: 35px;
+    
+
+
+}
+
+.link-nav{
+    text-decoration: none;
+    color: rgb(182, 178, 178) ;
+}
+.link-nav:hover{
+    color: black;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+
+ul {
+    
+    list-style: none;
+    
+}
+
+.nav-button {
+    margin-right: 100px;
+    margin-top: 20px;
+    padding: 8px 25px;
+    background-color: transparent;
+    border: 2px solid rgb(182, 178, 178);
+    
+    
+
+}
+
+.nav-button:hover{
+    border-color: rgb(255, 183, 48);
+    color: rgb(255, 183, 48);
+    transition: 1s;
+    cursor: pointer;
+    
+}
+
+/*end of navigation block style formatting*/
+
+
+/*beginning of the main advertising style of the page*/
+.flayer-principal {
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+
+}
+
+.img-car{
+    width: 650px;
+    margin-top: 100px;
+}
+
+.box-text{
+
+}
+
+
+
+
+
+.contact-flayer {
+    background-color: rgb(182, 178, 178);
+
 }
