@@ -12,7 +12,7 @@ body {
  contain the navigation bar, 
  title and main advertisement of the page*/
 .main-container {
-    width: 100vw;
+    
     height: 550px;
     background-color: white;
     display: grid;
@@ -25,6 +25,7 @@ body {
 
 /*Navigation menu items formatting block*/
 .nav-container {
+    
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -42,21 +43,20 @@ body {
 .list-menu {
     display: flex;
     gap: 45px;
-    text-decoration: none;
     margin-top: 35px;
 
 
 
 }
 
-.link-nav {
+.link-nav{
     text-decoration: none;
     color: rgb(182, 178, 178);
+    transition: 1s;
 }
 
-.link-nav:hover {
+.link-nav:hover{
     color: black;
-    transition: 0.5s;
     cursor: pointer;
 }
 
@@ -73,6 +73,7 @@ ul {
     padding: 8px 25px;
     background-color: transparent;
     border: 2px solid rgb(182, 178, 178);
+    transition: 1s;
 
 
 
@@ -81,7 +82,6 @@ ul {
 .nav-button:hover {
     border-color: rgb(255, 183, 48);
     color: rgb(255, 183, 48);
-    transition: 1s;
     cursor: pointer;
 
 }
@@ -91,7 +91,7 @@ ul {
 
 /*beginning of the main advertising style of the page*/
 .flayer-principal {
-
+   
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -100,16 +100,10 @@ ul {
 
 }
 
-.text-top-car{
-    font-size: 16px;
-    color: rgb(182, 178, 178);
-   
-
-}
-
 .img-car {
     width: 650px;
     margin-top: 100px;
+    margin-right: 55px;
     
 }
 
@@ -118,6 +112,7 @@ ul {
     margin-left: 100px;
 }
 .text-blue{
+
     color:blue;
 }
 
@@ -127,7 +122,7 @@ ul {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    gap: 25px;
+    gap: 2px;
     align-items: baseline;
 }
 
@@ -135,8 +130,84 @@ ul {
     margin-left: 100px;
     margin-top: 10px;
 }
+/*final styling of my main layout*/
 
-
+/*start using the experience container*/
 .container-experience{
     
+    height: 700px;
+    margin: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px , 1fr));
+    gap: 10px;
+   
+
+}
+.box1{
+    height: 10px;
+    margin-bottom: 100px;
+    color:  white;
+    font-size: 45px;
+    margin-left: 90px;
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+.box2{
+    width: 370px;
+    margin-left: 90px;
+    background-image: url(/Car-Clean/photo-man-doing-car-polish-machine.jpg);
+   background-size: cover;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 5;
+}
+
+
+.box3{
+    background-image: url(/Car-Clean/man-doing-car-polish.jpg);
+    background-size: cover;
+    width: 340px;
+    height: 200px;
+    margin-left: 80px;
+    
+}
+.box4{
+    background-image: url(/Car-Clean/homem-polir.avif);
+    background-size: cover;
+    width: 340px;
+    height: 200px;
+    margin-left: 10px;
+}
+.box5{
+    font-size: 16px;
+    width: 710px;
+    margin-top: -30px;
+    margin-left: 80px;
+    color:  white;
+    grid-column-start: 2;
+    grid-column-end: 4;
+
+}
+.box6{
+    width: 710px;
+    margin-left: 80px;
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+
+.buttons-2{
+    background-color: transparent;
+    border: 1px solid white;
+    font-size: 16px;
+    color: white;
+    padding: 8px 25px;
+    transition: 1s;
+    
+}
+
+.buttons-2:hover{
+    border-color: orange;
+    color: orange;
+    cursor: pointer;
 }
