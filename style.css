@@ -328,6 +328,11 @@ ul {
 /*responsive for mobile*/
 @media(max-width:500px) {
 
+    .main-container{
+        width: 100%;
+        overflow: hidden;
+    }
+
     .list-menu{
         margin-left: -20px;
     }
