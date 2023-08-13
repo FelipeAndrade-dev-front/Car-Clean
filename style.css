@@ -80,6 +80,7 @@ ul {
     background-color: transparent;
     border: 2px solid rgb(182, 178, 178);
     transition: 1s;
+    
 
 
 
@@ -88,6 +89,7 @@ ul {
 .nav-button:hover {
     border-color: rgb(255, 183, 48);
     color: rgb(255, 183, 48);
+    
 
 
 }
@@ -338,6 +340,9 @@ ul {
 
     .list-menu{
         margin-left: -20px;
+    }
+    .nav-button{
+        display: none;
     }
     .img-car {
         width: 250px;
