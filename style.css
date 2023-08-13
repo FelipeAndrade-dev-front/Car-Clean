@@ -326,12 +326,15 @@ ul {
 
 
 /*responsive for mobile*/
-@media(max-width:504px) {
+@media(max-width:500px) {
 
-    
+    .list-menu{
+        margin-left: -20px;
+    }
     .img-car {
         width: 250px;
         margin-right: 50px;
+        margin-left: -20px;
        
     
     }
@@ -349,7 +352,7 @@ ul {
     }
     .box1 {
         margin-top: 20px;
-        font-size: 25px;
+        font-size: 23px;
         margin-left: 10px;
         
     }
@@ -374,8 +377,9 @@ ul {
     
     .box4 {
         
-        width: 150px;
+        width: 90px;
         height: 120px;
+        margin-left: -35px;
         
         
        
@@ -386,7 +390,7 @@ ul {
         font-size: 16px;
         width: 200px;
         margin-top: -30px;
-        margin-left: 80px;
+        margin-left: 10px;
         
     
     }
@@ -488,4 +492,3 @@ ul {
 
 }
 
-@media (min-width:877px) and (max-width:1024) {}
