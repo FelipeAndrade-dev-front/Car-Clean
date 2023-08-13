@@ -326,7 +326,7 @@ ul {
 
 
 /*responsive for mobile*/
-@media(max-width:500px) {
+@media only screen and (max-width:414px) and (max-height:736px){
 
     .main-container{
         width: 100%;
@@ -466,27 +466,27 @@ ul {
         height: 80px;
         font-size: 16px;
         margin-right: -150px;
-        margin-left: -15px;
+        
     }
     .buttons-3 {
         font-size: 12px;
         padding: 4px 15px;
         margin-top: 200px;
+
         
     
     }
     
     
     .service-3 {
-        width: 100px;
-        height: 80px;
-        margin-right: -70px;
+        width: 150px;
+        height: 250px;
+        margin-right: -50px;
     
     }
     
     .service-4 {
-        width: 100px;
-        height: 80px;
+        display: none;
         
         
         
