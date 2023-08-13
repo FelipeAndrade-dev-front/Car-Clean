@@ -6,27 +6,33 @@ body {
     background-color: black;
     margin: 0px;
     padding: 0px;
+    overflow-x: hidden;
+    
+  
 }
 
 /*main container where it will
  contain the navigation bar, 
  title and main advertisement of the page*/
 .main-container {
-
-    height: 550px;
+    
+    height: 500px;
     background-color: white;
     display: grid;
     grid-template-columns: 3, 1fr;
-    grid-template-rows: 85px 400px 65px;
+    grid-template-rows: 85px 400px 70px;
 }
 
 /*page header container*/
-.header-container {}
+.header-container {
+    width: 100vw;
+}
 
 /*Navigation menu items formatting block*/
 .nav-container {
 
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
 }
@@ -91,11 +97,12 @@ ul {
 
 /*beginning of the main advertising style of the page*/
 .flayer-principal {
-
+     width: 100vw;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
+    
 
 
 }
@@ -119,11 +126,12 @@ ul {
 
 
 .contact-flayer {
+    width: 100%;
+    overflow: hidden;
     background-color: rgb(182, 178, 178);
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    gap: 2px;
     align-items: baseline;
 }
 
@@ -132,15 +140,20 @@ ul {
     margin-top: 10px;
 }
 
+.address-first{
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
 /*final styling of my main layout*/
 
 /*start using the experience container*/
 .container-experience {
-
+    
     height: 700px;
     margin: 20px;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    grid-template-columns: repeat( minmax(100px, 1fr));
     gap: 10px;
 
 
@@ -224,11 +237,12 @@ ul {
 /*start of services style*/
 
 .container-service {
+    max-width: 100%;
+    overflow: hidden;
     background-color: white;
     height: 700px;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-    gap: 30px;
+    grid-template-columns: repeat(minmax(100px, 1fr));
 
 }
 
@@ -259,10 +273,10 @@ ul {
 
 }
 .container-service-2{
-
+    
     margin-left: 40px;
     margin-top: 100px;
-    margin-left: 110px;
+   
     
 
 }
@@ -300,4 +314,178 @@ ul {
     margin-top: 50px;
     margin-left: 80px;
 }
-/*end of services style*
+/*end of services style*/
+
+/*start of services Before & After*/
+.before-after{
+
+}
+
+
+
+
+
+/*responsive for mobile*/
+@media(max-width:504px) {
+
+    
+    .img-car {
+        width: 250px;
+        margin-right: 50px;
+       
+    
+    }
+    
+    .box-text {
+        font-size: 30px;
+        margin-left: 80px;
+        margin-right: 50px;
+    }
+    
+    .container-experience {
+    
+       
+    
+    }
+    .box1 {
+        margin-top: 20px;
+        font-size: 25px;
+        margin-left: 10px;
+        
+    }
+    
+    .box2 {
+       
+        width: 100px;
+        margin-left: 10px;
+        
+        
+    }
+    
+    
+    .box3 {
+        
+        width: 150px;
+        height: 120px;
+        margin-left: -5px;
+        
+    
+    }
+    
+    .box4 {
+        
+        width: 150px;
+        height: 120px;
+        
+        
+       
+        
+    }
+    
+    .box5 {
+        font-size: 16px;
+        width: 200px;
+        margin-top: -30px;
+        margin-left: 80px;
+        
+    
+    }
+    
+    .box6 {
+        width: 200px;
+        margin-left: 80px;
+        
+    }
+    
+    .buttons-2 {
+        background-color: transparent;
+        border: 1px solid white;
+        font-size: 12px;
+        color: white;
+        padding: 8px 15px;
+        transition: 1s;
+    
+    }
+    
+    .buttons-2:hover {
+        border-color: orange;
+        color: orange;
+        cursor: pointer;
+    }
+
+    
+    
+    .service-1 {
+        
+        background-color: white;
+        color: black;
+        height: 20px;
+        grid-column-start: 1;
+        grid-column-end: 4;   
+    }
+    .title-service{
+        font-size: 35px;
+        color: rgb(4, 4, 48);
+        margin-left: 20px;
+        margin-top: 50px;
+        
+    
+    }
+    /*service-1 finish*/
+    
+    /*start service-2*/
+
+    .service-2 {
+        background-color: white;
+        margin-top: 55px;
+        
+       
+    
+
+    }
+
+
+    .container-service-2{
+        
+        font-size: 12px;
+        margin-top: -100px;
+    
+    }
+
+    .help-service{
+        width: 180px;
+        height: 80px;
+        font-size: 16px;
+        margin-right: -150px;
+        margin-left: -15px;
+    }
+    .buttons-3 {
+        font-size: 12px;
+        padding: 4px 15px;
+        margin-top: 200px;
+        
+    
+    }
+    
+    
+    .service-3 {
+        width: 100px;
+        height: 80px;
+        margin-right: -70px;
+    
+    }
+    
+    .service-4 {
+        width: 100px;
+        height: 80px;
+        
+        
+        
+    }
+    /*end of services style*/
+    
+
+
+}
+
+@media (min-width:877px) and (max-width:1024) {}
