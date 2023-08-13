@@ -326,7 +326,7 @@ ul {
 
 
 /*responsive for mobile*/
-@media screen and (max-width: 736px) {
+@media screen and (max-width: 736px) and (max-width: 1170px) {
 
     .main-container{
         width: 100%;
