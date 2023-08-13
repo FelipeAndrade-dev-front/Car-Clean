@@ -245,6 +245,7 @@ ul {
     color: rgb(4, 4, 48);
     margin-left: 500px;
     margin-top: 100px;
+    
 
 }
 /*service-1 finish*/
@@ -254,11 +255,14 @@ ul {
     background-color: white;
     margin-top: 55px;
     height: 250px;
+   
 
 }
 .container-service-2{
 
     margin-left: 40px;
+    margin-top: 100px;
+    margin-left: 110px;
     
 
 }
@@ -279,15 +283,21 @@ ul {
 }
 
 .service-3 {
-    height: 350px;
+    width: 350px;
+    height: 380px;
     background-image: url(/Car-Clean/car-1.jpg);
     background-size: cover;
+    margin-top: 50px;
+    margin-left: 150px;
 
 }
 
 .service-4 {
-    height: 350px;
+    height: 380px;
+    width: 350px;
     background-image: url(/Car-Clean/car-2.jpg);
     background-size: cover;
-
+    margin-top: 50px;
+    margin-left: 80px;
 }
+/*end of services style*
