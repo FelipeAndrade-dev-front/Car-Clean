@@ -48,7 +48,7 @@
         </div>
 
     </main>
-    <section class="container-experience"  id="section2">
+    <section class="container-experience" id="section2">
 
         <div class="box1">
             <h2><strong>Based On <span class="text-blue">Experience</span> </strong></h2>
@@ -94,11 +94,16 @@
         <div class="service-4"></div>
 
     </section>
-
+    <!--
     <section class="before-after">
         <div class="container-before-after">
 
-            <div class="before-after-1"></div>
+            <div class="before-after-1">
+                <h2 class="before-after-title">Before & After</h2>
+                <p class="before-after-sub">See voice even the result of our work, the before and after
+                    washing to make your car more beautiful and protect your painting.
+                </p>
+            </div>
 
             <div class="before-after-2"></div>
 
@@ -107,24 +112,28 @@
         </div>
 
     </section>
+    -->
 
 
-
+    <!--this javascript code snippet is to create a 
+    scrolling effect on the page when clicking on 
+    the navigation links, the user is redirected to 
+    the chosen section of the panel-->
 
     <script>
-        const links=
-        document.querySelectorAll("nav a");
+        const links =
+            document.querySelectorAll("nav a");
 
-        links.forEach(link =>{
-            link.addEventListener('click',(event)=> {
+        links.forEach(link => {
+            link.addEventListener('click', (event) => {
 
                 event.preventDefault();
 
-                const target=
-                document.querySelector(link.getAttribute('href'));
+                const target =
+                    document.querySelector(link.getAttribute('href'));
 
                 target.scrollIntoView({
-                    behavior:"smooth"
+                    behavior: "smooth"
                 });
             });
         });

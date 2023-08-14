@@ -2,7 +2,7 @@
     font-family: sans-serif;
 }
 
-html{
+html {
     scroll-behavior: smooth;
 }
 
@@ -11,15 +11,15 @@ body {
     margin: 0px;
     padding: 0px;
     overflow-x: hidden;
-    
-  
+
+
 }
 
 /*main container where it will
  contain the navigation bar, 
  title and main advertisement of the page*/
 .main-container {
-    
+
     height: 500px;
     background-color: white;
     display: grid;
@@ -67,7 +67,7 @@ body {
 
 .link-nav:hover {
     color: black;
-    
+
 }
 
 
@@ -78,12 +78,12 @@ ul {
 }
 
 .nav-button {
-   margin-right: 100px;
-   padding: 8px 25px;
-   background-color: white;
-   border: 2px solid rgb(182, 178, 178);
-   margin-top: 15px;
-   color: black;
+    margin-right: 100px;
+    padding: 8px 25px;
+    background-color: white;
+    border: 2px solid rgb(182, 178, 178);
+    margin-top: 15px;
+    color: black;
 
 }
 
@@ -91,8 +91,8 @@ ul {
     color: orange;
     border-color: orange;
     background-color: black;
-    
-    
+
+
 
 
 }
@@ -102,12 +102,12 @@ ul {
 
 /*beginning of the main advertising style of the page*/
 .flayer-principal {
-     width: 100vw;
+    width: 100vw;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-    
+
 
 
 }
@@ -145,7 +145,7 @@ ul {
     margin-top: 10px;
 }
 
-.address-first{
+.address-first {
     margin-left: 50px;
     margin-top: 10px;
 }
@@ -154,11 +154,11 @@ ul {
 
 /*start using the experience container*/
 .container-experience {
-    
+
     height: 700px;
     margin: 20px;
     display: grid;
-    grid-template-columns: repeat( minmax(100px, 1fr));
+    grid-template-columns: repeat(minmax(100px, 1fr));
     gap: 10px;
 
 
@@ -252,21 +252,23 @@ ul {
 }
 
 .service-1 {
-    
+
     background-color: white;
     color: black;
     height: 20px;
     grid-column-start: 1;
-    grid-column-end: 4;   
+    grid-column-end: 4;
 }
-.title-service{
+
+.title-service {
     font-size: 45px;
     color: rgb(4, 4, 48);
     margin-left: 500px;
     margin-top: 100px;
-    
+
 
 }
+
 /*service-1 finish*/
 
 /*start service-2*/
@@ -274,22 +276,24 @@ ul {
     background-color: white;
     margin-top: 55px;
     height: 250px;
-   
+
 
 }
-.container-service-2{
-    
+
+.container-service-2 {
+
     margin-left: 40px;
     margin-top: 100px;
-   
-    
+
+
 
 }
+
 .buttons-3 {
     background-color: transparent;
     border: 1px solid black;
     font-size: 16px;
-    color:black;
+    color: black;
     padding: 8px 25px;
     transition: 1s;
 
@@ -319,12 +323,58 @@ ul {
     margin-top: 50px;
     margin-left: 80px;
 }
+
 /*end of services style*/
 
 /*start of services Before & After*/
-.before-after{
+
+/*
+.container-before-after {
+    margin: 20px;
+    height: 700px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(3, 1fr));
+    gap: 5px;
 
 }
+
+.before-after-1 {
+    height: 170px;
+    color: white;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.before-after-title{
+    font-size: 55px;
+}
+.before-after-sub{
+    font-size: 12px;
+}
+
+.before-after-2 {
+    height: 30rem;
+    width: 35rem;
+    background-color: white;
+    grid-column-start: 1;
+    grid-column-end: 2;
+
+}
+
+.before-after-3 {
+    background-color: white;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    width: 35rem;
+    height: 30rem;
+    margin-left: 11rem;
+
+
+}
+*/
 
 
 
@@ -333,96 +383,95 @@ ul {
 /*responsive for mobile*/
 @media screen and (max-width: 736px) and (max-width: 1170px) {
 
-    .main-container{
+    .main-container {
         width: 100%;
         overflow: hidden;
     }
-    .logo-type{
+
+    .logo-type {
         display: none;
     }
 
-    .list-menu{
+    .list-menu {
         margin-left: -20px;
     }
-    .nav-button{
+
+    .nav-button {
         display: none;
     }
 
-   
+
     .img-car {
         width: 380px;
         margin-right: 50px;
         margin-left: -100px;
         margin-top: 130px;
-       
-    
+
+
     }
-    
+
     .box-text {
         font-size: 40px;
         margin-left: 100px;
-        margin-bottom:200px;
+        margin-bottom: 200px;
     }
 
-  
-    
-    .container-experience {
-    
-       
-    
-    }
+
+
+    .container-experience {}
+
     .box1 {
         margin-top: 20px;
         font-size: 23px;
         margin-left: 10px;
-        
+
     }
-    
+
     .box2 {
-       
+
         width: 100px;
         margin-left: 10px;
-        
-        
-        
+
+
+
     }
-    
-    
+
+
     .box3 {
-        
+
         width: 150px;
         height: 120px;
         margin-left: -5px;
-        
-    
+
+
     }
-    
+
     .box4 {
-        
+
         width: 90px;
         height: 120px;
         margin-left: -35px;
-        
-        
-       
-        
+
+
+
+
     }
-    
+
     .box5 {
         font-size: 16px;
         width: 200px;
         margin-top: -30px;
         margin-left: 10px;
-        
-    
+
+
     }
-    
+
     .box6 {
         width: 200px;
         margin-left: 5px;
-        
+
     }
-    
+
     .buttons-2 {
         background-color: transparent;
         border: 1px solid white;
@@ -430,35 +479,37 @@ ul {
         color: white;
         padding: 8px 15px;
         transition: 1s;
-    
+
     }
-    
+
     .buttons-2:hover {
         border-color: orange;
         color: orange;
         cursor: pointer;
     }
 
-    
-    
+
+
     .service-1 {
-        
+
         background-color: white;
         color: black;
         height: 20px;
         grid-column-start: 1;
-        grid-column-end: 4;   
+        grid-column-end: 4;
     }
-    .title-service{
+
+    .title-service {
         font-size: 35px;
         color: rgb(4, 4, 48);
         margin-left: 20px;
         margin-top: 50px;
-        
-    
+
+
     }
+
     /*service-1 finish*/
-    
+
     /*start service-2*/
 
     .service-2 {
@@ -468,7 +519,7 @@ ul {
         margin-top: 35px;
         margin-right: 50px;
         margin-left: -15px;
-        
+
     }
 
 
@@ -478,29 +529,29 @@ ul {
         margin-top: 15px;
         border: 2px solid;
 
-        
-    
+
+
     }
-    
-    
+
+
     .service-3 {
         background-image: url(/Car-Clean/-polir-as-rodas-do-carro1.jpg);
         margin-left: -39px;
         width: 180px;
         height: 410px;
-        
-    
+
+
     }
-    
+
     .service-4 {
         display: none;
-        
-        
-        
+
+
+
     }
+
     /*end of services style*/
-    
+
 
 
 }
-
