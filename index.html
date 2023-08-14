@@ -9,21 +9,21 @@
 </head>
 
 <body>
-    <main class="main-container">
+    <main class="main-container" id="section1">
         <header class="header-container">
             <nav class="nav-container">
 
                 <img class="logo-type" src="/Car-Clean/carro-limpo.png" alt="logo type">
 
                 <ul class="list-menu">
-                    <li><a class="link-nav" href="#"><strong>Home</strong></a></li>
-                    <li><a class="link-nav" href="#"><strong>Service</strong></a></li>
-                    <li><a class="link-nav" href="#"><strong>Contact</strong></a></li>
+                    <li><a class="link-nav" href="#section1"><strong>Home</strong></a></li>
+                    <li><a class="link-nav" href="#section3"><strong>Service</strong></a></li>
+                    <li><a class="link-nav" href="#section2"><strong>Experience</strong></a></li>
                     <li><a class="link-nav" href="#"><strong>Reserve</strong></a></li>
 
                 </ul>
 
-                <button  class="nav-button">Budget</button>
+                <button class="nav-button">Budget</button>
 
             </nav>
 
@@ -48,7 +48,7 @@
         </div>
 
     </main>
-    <section class="container-experience">
+    <section class="container-experience"  id="section2">
 
         <div class="box1">
             <h2><strong>Based On <span class="text-blue">Experience</span> </strong></h2>
@@ -69,7 +69,7 @@
 
     </section>
 
-    <section class="container-service">
+    <section class="container-service" id="section3">
 
         <div class="service-1">
             <p class="title-service"><strong>Our Service</strong></p>
@@ -78,12 +78,13 @@
         <div class="service-2">
             <div class="container-service-2">
                 <div class="help-service">
-                <h3>Paint Protection Film</h3>
+                    <h3>Paint Protection Film</h3>
 
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime aut ad aliquam. Sunt in nulla, quia,
-                    repudiandae magnam ex e
-                    um molestiae atque inventore quibusdam maiores quod! Porro quae voluptatibus ab!</p>
-                
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime aut ad aliquam. Sunt in nulla,
+                        quia,
+                        repudiandae magnam ex e
+                        um molestiae atque inventore quibusdam maiores quod! Porro quae voluptatibus ab!</p>
+
                 </div>
                 <button class="buttons-3">Learn More</button>
             </div>
@@ -106,6 +107,28 @@
         </div>
 
     </section>
+
+
+
+
+    <script>
+        const links=
+        document.querySelectorAll("nav a");
+
+        links.forEach(link =>{
+            link.addEventListener('click',(event)=> {
+
+                event.preventDefault();
+
+                const target=
+                document.querySelector(link.getAttribute('href'));
+
+                target.scrollIntoView({
+                    behavior:"smooth"
+                });
+            });
+        });
+    </script>
 </body>
 
 </html>

@@ -2,6 +2,10 @@
     font-family: sans-serif;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: black;
     margin: 0px;
@@ -63,7 +67,7 @@ body {
 
 .link-nav:hover {
     color: black;
-    cursor: pointer;
+    
 }
 
 
@@ -74,21 +78,20 @@ ul {
 }
 
 .nav-button {
-    margin-right: 100px;
-    margin-top: 20px;
-    padding: 8px 25px;
-    background-color: transparent;
-    border: 2px solid rgb(182, 178, 178);
-    transition: 1s;
-    
-
-
+   margin-right: 100px;
+   padding: 8px 25px;
+   background-color: white;
+   border: 2px solid rgb(182, 178, 178);
+   margin-top: 15px;
+   color: black;
 
 }
 
 .nav-button:hover {
-    border-color: rgb(255, 183, 48);
-    color: rgb(255, 183, 48);
+    color: orange;
+    border-color: orange;
+    background-color: black;
+    
     
 
 
@@ -347,9 +350,9 @@ ul {
 
    
     .img-car {
-        width: 350px;
+        width: 380px;
         margin-right: 50px;
-        margin-left: -150px;
+        margin-left: -100px;
         margin-top: 130px;
        
     
@@ -357,9 +360,11 @@ ul {
     
     .box-text {
         font-size: 40px;
-        margin-left: 10px;
-        margin-bottom:155px;
+        margin-left: 100px;
+        margin-bottom:200px;
     }
+
+  
     
     .container-experience {
     
@@ -460,34 +465,17 @@ ul {
         width: 220px;
         height: 450px;
         background-color: white;
-        margin-top: 55px;
-        overflow: hidden;
-       
-    
-
-    }
-
-
-    .container-service-2{
-        
-        font-size: 12px;
-        margin-top: -100px;
-        margin-right: 15px;
-    
-    }
-
-    .help-service{
-        width: 180px;
-        height: 80px;
-        font-size: 16px;
-        margin-right: -150px;
-        margin-top: 155px;
+        margin-top: 35px;
+        margin-right: 50px;
+        margin-left: -15px;
         
     }
+
+
     .buttons-3 {
         font-size: 12px;
         padding: 4px 15px;
-        margin-top: 200px;
+        margin-top: 15px;
         border: 2px solid;
 
         
@@ -497,10 +485,10 @@ ul {
     
     .service-3 {
         background-image: url(/Car-Clean/-polir-as-rodas-do-carro1.jpg);
-        
+        margin-left: -39px;
         width: 180px;
         height: 410px;
-        margin-left: px;
+        
     
     }
     
