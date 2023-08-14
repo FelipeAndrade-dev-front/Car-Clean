@@ -344,18 +344,21 @@ ul {
     .nav-button{
         display: none;
     }
+
+   
     .img-car {
-        width: 250px;
+        width: 350px;
         margin-right: 50px;
-        margin-left: -20px;
+        margin-left: -150px;
+        margin-top: 130px;
        
     
     }
     
     .box-text {
-        font-size: 30px;
-        margin-left: 80px;
-        margin-right: 50px;
+        font-size: 40px;
+        margin-left: 10px;
+        margin-bottom:155px;
     }
     
     .container-experience {
@@ -493,9 +496,11 @@ ul {
     
     
     .service-3 {
+        background-image: url(/Car-Clean/-polir-as-rodas-do-carro1.jpg);
+        
         width: 180px;
         height: 410px;
-        margin-left: -12px;
+        margin-left: px;
     
     }
     
