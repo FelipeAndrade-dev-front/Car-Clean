@@ -29,16 +29,18 @@ body {
 
 /*page header container*/
 .header-container {
-    width: 100vw;
+    width: 100%;
+    
 }
 
 /*Navigation menu items formatting block*/
-.nav-container {
-
+.nav-container{
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: row;
     justify-content: space-between;
-    align-items: center;
+    
+    
+    
 }
 
 .logo-type {
