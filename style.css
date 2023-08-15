@@ -328,7 +328,7 @@ ul {
 
 /*start of services Before & After*/
 
-/*
+
 .container-before-after {
     margin: 20px;
     height: 700px;
@@ -344,7 +344,8 @@ ul {
     grid-column-start: 1;
     grid-column-end: 4;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    align-items: baseline;
 
 }
 
@@ -353,19 +354,24 @@ ul {
 }
 .before-after-sub{
     font-size: 12px;
+    padding: 25px 30px;
+    border: 1px solid;
 }
 
 .before-after-2 {
     height: 30rem;
     width: 35rem;
-    background-color: white;
+    background-image: url(/Car-Clean/porsche\ suja.jpg);
+    background-size: cover;
     grid-column-start: 1;
     grid-column-end: 2;
+   margin-left: 55px;
 
 }
 
 .before-after-3 {
-    background-color: white;
+    background-image: url(/Car-Clean/porsche-limpa.jpg);
+    background-size: cover;
     grid-column-start: 3;
     grid-column-end: 4;
     width: 35rem;
@@ -374,7 +380,30 @@ ul {
 
 
 }
-*/
+
+/*end of services Before & After*/
+
+/*start of footer*/
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    justify-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    background-color: rgb(182, 178, 178);
+}
+
+/*end of footer*/
+
+
+
+
+    
+
+
 
 
 
@@ -393,7 +422,7 @@ ul {
     }
 
     .list-menu {
-        margin-left: -20px;
+        margin-left: -30px;
     }
 
     .nav-button {
@@ -551,6 +580,50 @@ ul {
     }
 
     /*end of services style*/
+
+    /*start of services Before & After*/
+
+
+.container-before-after {
+    
+
+}
+
+.before-after-1 {
+   width: 390px;
+   gap: 25px;
+
+}
+
+.before-after-title{
+    font-size: 35px;
+}
+.before-after-sub{
+    
+}
+
+.before-after-2 {
+    display: none;
+
+}
+
+.before-after-3 {
+   width: 600px;
+   margin-left: -400px;
+    
+    
+
+
+}
+
+/*end of services Before & After*/
+
+/*start of footer*/
+footer{
+  
+}
+
+/*end of footer*/
 
 
 
